@@ -1,0 +1,30 @@
+{
+  "name" : "diarioas/hellotestbundle",
+  "description" : "A demo bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "demo",
+    "email" : "demo@company.com"
+  }],
+  "keywords" : [
+    "demo bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "DiarioAs\\HelloTestBundle" : ""
+    }
+  },
+  "target-dir" : "DiarioAs/DemoBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "some_version-dev"
+    }
+  }
+}
