@@ -21,6 +21,8 @@
   },
   "target-dir" : "DiarioAs/DemoBundle",
   "repositories" : [{
+    "type":"vcs",
+    "url":"https://github.com/luislard/HelloTestBundle.git"
   }],
   "extra" : {
     "branch-alias" : {
